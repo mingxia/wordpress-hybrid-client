@@ -1,6 +1,5 @@
 <ion-view>
     <ion-nav-title>{{ post.post.title | translate}}</ion-nav-title>
-    <wphc-loader ng-if="!post.post"></wphc-loader>
     <ion-content has-bouncing="true">
         <wphc-post post="post.post"></wphc-posts>
     </ion-content>

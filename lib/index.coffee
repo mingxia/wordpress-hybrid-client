@@ -38,6 +38,7 @@ module.exports = app = angular.module 'wordpress-hybrid-client', [
   require('./menu/menu.module').name
   require('./analytics/analytics.module').name
   require('./cordova/cordova.module').name
+  require('./loading/loading.module').name
 ]
 
 app.config ($stateProvider) ->
@@ -141,7 +142,6 @@ require "./directives/masonry/masonry.module.coffee"
 require "./directives/taxonomies/taxonomies.coffee"
 require "./directives/emptyList/emptyList.coffee"
 require "./directives/inputEsc/inputEsc.coffee"
-require "./directives/loader/loader.coffee"
 require "./directives/posts/posts.coffee"
 require "./directives/post/post.coffee"
 

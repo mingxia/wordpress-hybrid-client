@@ -4,7 +4,6 @@
         <md-button class="button button-clear" ng-click="modal.hide()"><i class="icon ion-close-round"></i>
         </md-button>
     </ion-header-bar>
-    <wphc-loader ng-if="!taxonomies.list.length"></wphc-loader>
     <ion-content has-bouncing="true">
         <wphc-taxonomies taxonomies="taxonomies.list" on-click="modal.hide()" term="taxonomies.term"></wphc-taxonomies>
     </ion-content>

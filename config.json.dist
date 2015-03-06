@@ -89,6 +89,9 @@
     "cordova": {
         "statubar": {
             "show": true
+        },
+        "loading": {
+            "persistent": true
         }
     }
 }

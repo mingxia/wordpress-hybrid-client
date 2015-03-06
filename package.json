@@ -78,6 +78,7 @@
     "./engine/cordova-crosswalk-engine-c0.6.1",
     "org.apache.cordova.statusbar",
     "org.apache.cordova.network-information",
-    "org.apache.cordova.splashscreen"
+    "org.apache.cordova.splashscreen",
+    "https://github.com/Paldom/SpinnerDialog.git"
   ]
 }
